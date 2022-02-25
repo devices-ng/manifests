@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gs290-dev" fetch="https://github.com/GS290-dev" revision="lineage-19.0" />
+  <project name="android_device_gigaset_GS290-unified" path="device/gigaset/GS290-unified" remote="gs290-dev" />
+  <project name="android_device_gigaset_GX290-unified" path="device/gigaset/GX290-unified" remote="gs290-dev" />
+  <project name="android_device_gigaset_mt6763-common" path="device/gigaset/mt6763-common" remote="gs290-dev" />
+  <project name="android_kernel_gigaset_mt6763" path="kernel/gigaset/mt6763" remote="gs290-dev" />
+  <project name="android_kernel_gigaset_gx290" path="kernel/gigaset/gx290" remote="gs290-dev" />
+  <project name="proprietary_vendor_firmware" path="vendor/firmware" remote="gs290-dev" />
+  <project name="proprietary_vendor_gigaset" path="vendor/gigaset" remote="gs290-dev" />
+</manifest>
